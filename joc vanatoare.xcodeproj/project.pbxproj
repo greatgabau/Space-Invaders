@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E25F310319655F3B0086C815 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E25F310219655F3B0086C815 /* Foundation.framework */; };
+		E25F310519655F3B0086C815 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E25F310419655F3B0086C815 /* CoreGraphics.framework */; };
+		E25F310719655F3B0086C815 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E25F310619655F3B0086C815 /* UIKit.framework */; };
+		E25F310D19655F3B0086C815 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E25F310B19655F3B0086C815 /* InfoPlist.strings */; };
+		E25F310F19655F3B0086C815 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E25F310E19655F3B0086C815 /* main.m */; };
+		E25F311319655F3B0086C815 /* XYZAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E25F311219655F3B0086C815 /* XYZAppDelegate.m */; };
+		E25F311619655F3B0086C815 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E25F311419655F3B0086C815 /* Main.storyboard */; };
+		E25F311919655F3B0086C815 /* XYZViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E25F311819655F3B0086C815 /* XYZViewController.m */; };
+		E25F311B19655F3B0086C815 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E25F311A19655F3B0086C815 /* Images.xcassets */; };
+		E25F312219655F3B0086C815 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E25F312119655F3B0086C815 /* XCTest.framework */; };
+		E25F312319655F3B0086C815 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E25F310219655F3B0086C815 /* Foundation.framework */; };
+		E25F312419655F3B0086C815 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E25F310619655F3B0086C815 /* UIKit.framework */; };
+		E25F312C19655F3B0086C815 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E25F312A19655F3B0086C815 /* InfoPlist.strings */; };
+		E25F312E19655F3B0086C815 /* joc_vanatoareTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E25F312D19655F3B0086C815 /* joc_vanatoareTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E25F312519655F3B0086C815 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E25F30F719655F3B0086C815 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E25F30FE19655F3B0086C815;
+			remoteInfo = "joc vanatoare";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E25F30FF19655F3B0086C815 /* joc vanatoare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "joc vanatoare.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E25F310219655F3B0086C815 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E25F310419655F3B0086C815 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E25F310619655F3B0086C815 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E25F310A19655F3B0086C815 /* joc vanatoare-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "joc vanatoare-Info.plist"; sourceTree = "<group>"; };
+		E25F310C19655F3B0086C815 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E25F310E19655F3B0086C815 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E25F311019655F3B0086C815 /* joc vanatoare-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "joc vanatoare-Prefix.pch"; sourceTree = "<group>"; };
+		E25F311119655F3B0086C815 /* XYZAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XYZAppDelegate.h; sourceTree = "<group>"; };
+		E25F311219655F3B0086C815 /* XYZAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYZAppDelegate.m; sourceTree = "<group>"; };
+		E25F311519655F3B0086C815 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E25F311719655F3B0086C815 /* XYZViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XYZViewController.h; sourceTree = "<group>"; };
+		E25F311819655F3B0086C815 /* XYZViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYZViewController.m; sourceTree = "<group>"; };
+		E25F311A19655F3B0086C815 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E25F312019655F3B0086C815 /* joc vanatoareTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "joc vanatoareTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E25F312119655F3B0086C815 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		E25F312919655F3B0086C815 /* joc vanatoareTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "joc vanatoareTests-Info.plist"; sourceTree = "<group>"; };
+		E25F312B19655F3B0086C815 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E25F312D19655F3B0086C815 /* joc_vanatoareTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = joc_vanatoareTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E25F30FC19655F3B0086C815 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E25F310519655F3B0086C815 /* CoreGraphics.framework in Frameworks */,
+				E25F310719655F3B0086C815 /* UIKit.framework in Frameworks */,
+				E25F310319655F3B0086C815 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E25F311D19655F3B0086C815 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E25F312219655F3B0086C815 /* XCTest.framework in Frameworks */,
+				E25F312419655F3B0086C815 /* UIKit.framework in Frameworks */,
+				E25F312319655F3B0086C815 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E25F30F619655F3B0086C815 = {
+			isa = PBXGroup;
+			children = (
+				E25F310819655F3B0086C815 /* joc vanatoare */,
+				E25F312719655F3B0086C815 /* joc vanatoareTests */,
+				E25F310119655F3B0086C815 /* Frameworks */,
+				E25F310019655F3B0086C815 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E25F310019655F3B0086C815 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E25F30FF19655F3B0086C815 /* joc vanatoare.app */,
+				E25F312019655F3B0086C815 /* joc vanatoareTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E25F310119655F3B0086C815 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E25F310219655F3B0086C815 /* Foundation.framework */,
+				E25F310419655F3B0086C815 /* CoreGraphics.framework */,
+				E25F310619655F3B0086C815 /* UIKit.framework */,
+				E25F312119655F3B0086C815 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E25F310819655F3B0086C815 /* joc vanatoare */ = {
+			isa = PBXGroup;
+			children = (
+				E25F311119655F3B0086C815 /* XYZAppDelegate.h */,
+				E25F311219655F3B0086C815 /* XYZAppDelegate.m */,
+				E25F311419655F3B0086C815 /* Main.storyboard */,
+				E25F311719655F3B0086C815 /* XYZViewController.h */,
+				E25F311819655F3B0086C815 /* XYZViewController.m */,
+				E25F311A19655F3B0086C815 /* Images.xcassets */,
+				E25F310919655F3B0086C815 /* Supporting Files */,
+			);
+			path = "joc vanatoare";
+			sourceTree = "<group>";
+		};
+		E25F310919655F3B0086C815 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E25F310A19655F3B0086C815 /* joc vanatoare-Info.plist */,
+				E25F310B19655F3B0086C815 /* InfoPlist.strings */,
+				E25F310E19655F3B0086C815 /* main.m */,
+				E25F311019655F3B0086C815 /* joc vanatoare-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E25F312719655F3B0086C815 /* joc vanatoareTests */ = {
+			isa = PBXGroup;
+			children = (
+				E25F312D19655F3B0086C815 /* joc_vanatoareTests.m */,
+				E25F312819655F3B0086C815 /* Supporting Files */,
+			);
+			path = "joc vanatoareTests";
+			sourceTree = "<group>";
+		};
+		E25F312819655F3B0086C815 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E25F312919655F3B0086C815 /* joc vanatoareTests-Info.plist */,
+				E25F312A19655F3B0086C815 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E25F30FE19655F3B0086C815 /* joc vanatoare */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E25F313119655F3B0086C815 /* Build configuration list for PBXNativeTarget "joc vanatoare" */;
+			buildPhases = (
+				E25F30FB19655F3B0086C815 /* Sources */,
+				E25F30FC19655F3B0086C815 /* Frameworks */,
+				E25F30FD19655F3B0086C815 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "joc vanatoare";
+			productName = "joc vanatoare";
+			productReference = E25F30FF19655F3B0086C815 /* joc vanatoare.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E25F311F19655F3B0086C815 /* joc vanatoareTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E25F313419655F3B0086C815 /* Build configuration list for PBXNativeTarget "joc vanatoareTests" */;
+			buildPhases = (
+				E25F311C19655F3B0086C815 /* Sources */,
+				E25F311D19655F3B0086C815 /* Frameworks */,
+				E25F311E19655F3B0086C815 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E25F312619655F3B0086C815 /* PBXTargetDependency */,
+			);
+			name = "joc vanatoareTests";
+			productName = "joc vanatoareTests";
+			productReference = E25F312019655F3B0086C815 /* joc vanatoareTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E25F30F719655F3B0086C815 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = XYZ;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = gabau;
+				TargetAttributes = {
+					E25F311F19655F3B0086C815 = {
+						TestTargetID = E25F30FE19655F3B0086C815;
+					};
+				};
+			};
+			buildConfigurationList = E25F30FA19655F3B0086C815 /* Build configuration list for PBXProject "joc vanatoare" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E25F30F619655F3B0086C815;
+			productRefGroup = E25F310019655F3B0086C815 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E25F30FE19655F3B0086C815 /* joc vanatoare */,
+				E25F311F19655F3B0086C815 /* joc vanatoareTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E25F30FD19655F3B0086C815 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E25F311B19655F3B0086C815 /* Images.xcassets in Resources */,
+				E25F310D19655F3B0086C815 /* InfoPlist.strings in Resources */,
+				E25F311619655F3B0086C815 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E25F311E19655F3B0086C815 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E25F312C19655F3B0086C815 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E25F30FB19655F3B0086C815 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E25F311919655F3B0086C815 /* XYZViewController.m in Sources */,
+				E25F311319655F3B0086C815 /* XYZAppDelegate.m in Sources */,
+				E25F310F19655F3B0086C815 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E25F311C19655F3B0086C815 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E25F312E19655F3B0086C815 /* joc_vanatoareTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E25F312619655F3B0086C815 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E25F30FE19655F3B0086C815 /* joc vanatoare */;
+			targetProxy = E25F312519655F3B0086C815 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E25F310B19655F3B0086C815 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E25F310C19655F3B0086C815 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E25F311419655F3B0086C815 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E25F311519655F3B0086C815 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E25F312A19655F3B0086C815 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E25F312B19655F3B0086C815 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E25F312F19655F3B0086C815 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E25F313019655F3B0086C815 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E25F313219655F3B0086C815 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "joc vanatoare/joc vanatoare-Prefix.pch";
+				INFOPLIST_FILE = "joc vanatoare/joc vanatoare-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E25F313319655F3B0086C815 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "joc vanatoare/joc vanatoare-Prefix.pch";
+				INFOPLIST_FILE = "joc vanatoare/joc vanatoare-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		E25F313519655F3B0086C815 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/joc vanatoare.app/joc vanatoare";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "joc vanatoare/joc vanatoare-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "joc vanatoareTests/joc vanatoareTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		E25F313619655F3B0086C815 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/joc vanatoare.app/joc vanatoare";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "joc vanatoare/joc vanatoare-Prefix.pch";
+				INFOPLIST_FILE = "joc vanatoareTests/joc vanatoareTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E25F30FA19655F3B0086C815 /* Build configuration list for PBXProject "joc vanatoare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E25F312F19655F3B0086C815 /* Debug */,
+				E25F313019655F3B0086C815 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E25F313119655F3B0086C815 /* Build configuration list for PBXNativeTarget "joc vanatoare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E25F313219655F3B0086C815 /* Debug */,
+				E25F313319655F3B0086C815 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E25F313419655F3B0086C815 /* Build configuration list for PBXNativeTarget "joc vanatoareTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E25F313519655F3B0086C815 /* Debug */,
+				E25F313619655F3B0086C815 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E25F30F719655F3B0086C815 /* Project object */;
+}
