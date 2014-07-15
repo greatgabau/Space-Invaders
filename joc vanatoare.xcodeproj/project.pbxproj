@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E2052EA3196722FF00E5250D /* turkey Invaders part1.png in Resources */ = {isa = PBXBuildFile; fileRef = E2052EA2196722FF00E5250D /* turkey Invaders part1.png */; };
+		E2052EA61967293400E5250D /* Linkuri.m in Sources */ = {isa = PBXBuildFile; fileRef = E2052EA51967293400E5250D /* Linkuri.m */; };
+		E2052EA819672D5300E5250D /* logo site 1.png in Resources */ = {isa = PBXBuildFile; fileRef = E2052EA719672D5300E5250D /* logo site 1.png */; };
+		E2052EFF1967372700E5250D /* winner.png in Resources */ = {isa = PBXBuildFile; fileRef = E2052EFE1967372700E5250D /* winner.png */; };
+		E2052F011967393400E5250D /* lose.png in Resources */ = {isa = PBXBuildFile; fileRef = E2052F001967393400E5250D /* lose.png */; };
 		E25F310319655F3B0086C815 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E25F310219655F3B0086C815 /* Foundation.framework */; };
 		E25F310519655F3B0086C815 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E25F310419655F3B0086C815 /* CoreGraphics.framework */; };
 		E25F310719655F3B0086C815 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E25F310619655F3B0086C815 /* UIKit.framework */; };
@@ -21,6 +26,21 @@
 		E25F312419655F3B0086C815 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E25F310619655F3B0086C815 /* UIKit.framework */; };
 		E25F312C19655F3B0086C815 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E25F312A19655F3B0086C815 /* InfoPlist.strings */; };
 		E25F312E19655F3B0086C815 /* joc_vanatoareTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E25F312D19655F3B0086C815 /* joc_vanatoareTests.m */; };
+		E25F313A1965615F0086C815 /* Another-UFO-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = E25F31371965615F0086C815 /* Another-UFO-icon.png */; };
+		E25F313B1965615F0086C815 /* curcan.png in Resources */ = {isa = PBXBuildFile; fileRef = E25F31381965615F0086C815 /* curcan.png */; };
+		E25F313C1965615F0086C815 /* glont.png in Resources */ = {isa = PBXBuildFile; fileRef = E25F31391965615F0086C815 /* glont.png */; };
+		E25F3140196568640086C815 /* planets.png in Resources */ = {isa = PBXBuildFile; fileRef = E25F313F196568640086C815 /* planets.png */; };
+		E25F314219656B5E0086C815 /* planets 2.png in Resources */ = {isa = PBXBuildFile; fileRef = E25F314119656B5E0086C815 /* planets 2.png */; };
+		E25F314419656C4B0086C815 /* glont 2.png in Resources */ = {isa = PBXBuildFile; fileRef = E25F314319656C4B0086C815 /* glont 2.png */; };
+		E25F314719656ECE0086C815 /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = E25F314619656ECE0086C815 /* Game.m */; };
+		E25F3149196586F80086C815 /* start U.png in Resources */ = {isa = PBXBuildFile; fileRef = E25F3148196586F80086C815 /* start U.png */; };
+		E25F314B1965880C0086C815 /* exit U.png in Resources */ = {isa = PBXBuildFile; fileRef = E25F314A1965880C0086C815 /* exit U.png */; };
+		E25F3159196593890086C815 /* ufo-messenger.png in Resources */ = {isa = PBXBuildFile; fileRef = E25F3158196593890086C815 /* ufo-messenger.png */; };
+		E25F315D1965949B0086C815 /* UFO V.png in Resources */ = {isa = PBXBuildFile; fileRef = E25F315B1965949B0086C815 /* UFO V.png */; };
+		E25F315F196594C80086C815 /* UFO R.png in Resources */ = {isa = PBXBuildFile; fileRef = E25F315E196594C80086C815 /* UFO R.png */; };
+		E25F31651965E3EE0086C815 /* visit me.png in Resources */ = {isa = PBXBuildFile; fileRef = E25F31641965E3EE0086C815 /* visit me.png */; };
+		E25F31671965E4640086C815 /* visitME2.png in Resources */ = {isa = PBXBuildFile; fileRef = E25F31661965E4640086C815 /* visitME2.png */; };
+		E25F316B1965EA710086C815 /* stairway-to-the-sky.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = E25F316A1965EA710086C815 /* stairway-to-the-sky.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +54,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E2052EA2196722FF00E5250D /* turkey Invaders part1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "turkey Invaders part1.png"; sourceTree = "<group>"; };
+		E2052EA41967293400E5250D /* Linkuri.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Linkuri.h; path = ../Linkuri.h; sourceTree = "<group>"; };
+		E2052EA51967293400E5250D /* Linkuri.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Linkuri.m; path = ../Linkuri.m; sourceTree = "<group>"; };
+		E2052EA719672D5300E5250D /* logo site 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo site 1.png"; sourceTree = "<group>"; };
+		E2052EFE1967372700E5250D /* winner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = winner.png; sourceTree = "<group>"; };
+		E2052F001967393400E5250D /* lose.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lose.png; sourceTree = "<group>"; };
 		E25F30FF19655F3B0086C815 /* joc vanatoare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "joc vanatoare.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E25F310219655F3B0086C815 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E25F310419655F3B0086C815 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +79,22 @@
 		E25F312919655F3B0086C815 /* joc vanatoareTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "joc vanatoareTests-Info.plist"; sourceTree = "<group>"; };
 		E25F312B19655F3B0086C815 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E25F312D19655F3B0086C815 /* joc_vanatoareTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = joc_vanatoareTests.m; sourceTree = "<group>"; };
+		E25F31371965615F0086C815 /* Another-UFO-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Another-UFO-icon.png"; sourceTree = "<group>"; };
+		E25F31381965615F0086C815 /* curcan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = curcan.png; sourceTree = "<group>"; };
+		E25F31391965615F0086C815 /* glont.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = glont.png; sourceTree = "<group>"; };
+		E25F313F196568640086C815 /* planets.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = planets.png; sourceTree = "<group>"; };
+		E25F314119656B5E0086C815 /* planets 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "planets 2.png"; sourceTree = "<group>"; };
+		E25F314319656C4B0086C815 /* glont 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "glont 2.png"; sourceTree = "<group>"; };
+		E25F314519656ECE0086C815 /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Game.h; path = ../Game.h; sourceTree = "<group>"; };
+		E25F314619656ECE0086C815 /* Game.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Game.m; path = ../Game.m; sourceTree = "<group>"; };
+		E25F3148196586F80086C815 /* start U.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "start U.png"; sourceTree = "<group>"; };
+		E25F314A1965880C0086C815 /* exit U.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "exit U.png"; sourceTree = "<group>"; };
+		E25F3158196593890086C815 /* ufo-messenger.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ufo-messenger.png"; sourceTree = "<group>"; };
+		E25F315B1965949B0086C815 /* UFO V.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "UFO V.png"; sourceTree = "<group>"; };
+		E25F315E196594C80086C815 /* UFO R.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "UFO R.png"; sourceTree = "<group>"; };
+		E25F31641965E3EE0086C815 /* visit me.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "visit me.png"; sourceTree = "<group>"; };
+		E25F31661965E4640086C815 /* visitME2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = visitME2.png; sourceTree = "<group>"; };
+		E25F316A1965EA710086C815 /* stairway-to-the-sky.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "stairway-to-the-sky.jpeg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +159,10 @@
 				E25F311419655F3B0086C815 /* Main.storyboard */,
 				E25F311719655F3B0086C815 /* XYZViewController.h */,
 				E25F311819655F3B0086C815 /* XYZViewController.m */,
+				E25F314519656ECE0086C815 /* Game.h */,
+				E25F314619656ECE0086C815 /* Game.m */,
+				E2052EA41967293400E5250D /* Linkuri.h */,
+				E2052EA51967293400E5250D /* Linkuri.m */,
 				E25F311A19655F3B0086C815 /* Images.xcassets */,
 				E25F310919655F3B0086C815 /* Supporting Files */,
 			);
@@ -126,6 +172,24 @@
 		E25F310919655F3B0086C815 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				E2052F001967393400E5250D /* lose.png */,
+				E2052EFE1967372700E5250D /* winner.png */,
+				E2052EA719672D5300E5250D /* logo site 1.png */,
+				E2052EA2196722FF00E5250D /* turkey Invaders part1.png */,
+				E25F316A1965EA710086C815 /* stairway-to-the-sky.jpeg */,
+				E25F31661965E4640086C815 /* visitME2.png */,
+				E25F31641965E3EE0086C815 /* visit me.png */,
+				E25F315E196594C80086C815 /* UFO R.png */,
+				E25F315B1965949B0086C815 /* UFO V.png */,
+				E25F3158196593890086C815 /* ufo-messenger.png */,
+				E25F314A1965880C0086C815 /* exit U.png */,
+				E25F3148196586F80086C815 /* start U.png */,
+				E25F314319656C4B0086C815 /* glont 2.png */,
+				E25F314119656B5E0086C815 /* planets 2.png */,
+				E25F313F196568640086C815 /* planets.png */,
+				E25F31371965615F0086C815 /* Another-UFO-icon.png */,
+				E25F31381965615F0086C815 /* curcan.png */,
+				E25F31391965615F0086C815 /* glont.png */,
 				E25F310A19655F3B0086C815 /* joc vanatoare-Info.plist */,
 				E25F310B19655F3B0086C815 /* InfoPlist.strings */,
 				E25F310E19655F3B0086C815 /* main.m */,
@@ -229,9 +293,27 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E25F314B1965880C0086C815 /* exit U.png in Resources */,
+				E25F313C1965615F0086C815 /* glont.png in Resources */,
+				E25F315F196594C80086C815 /* UFO R.png in Resources */,
 				E25F311B19655F3B0086C815 /* Images.xcassets in Resources */,
+				E2052EA3196722FF00E5250D /* turkey Invaders part1.png in Resources */,
+				E25F31651965E3EE0086C815 /* visit me.png in Resources */,
+				E2052EA819672D5300E5250D /* logo site 1.png in Resources */,
+				E25F314419656C4B0086C815 /* glont 2.png in Resources */,
+				E2052F011967393400E5250D /* lose.png in Resources */,
+				E25F3159196593890086C815 /* ufo-messenger.png in Resources */,
+				E25F313B1965615F0086C815 /* curcan.png in Resources */,
+				E25F314219656B5E0086C815 /* planets 2.png in Resources */,
+				E25F316B1965EA710086C815 /* stairway-to-the-sky.jpeg in Resources */,
+				E2052EFF1967372700E5250D /* winner.png in Resources */,
+				E25F313A1965615F0086C815 /* Another-UFO-icon.png in Resources */,
+				E25F31671965E4640086C815 /* visitME2.png in Resources */,
+				E25F3140196568640086C815 /* planets.png in Resources */,
+				E25F3149196586F80086C815 /* start U.png in Resources */,
 				E25F310D19655F3B0086C815 /* InfoPlist.strings in Resources */,
 				E25F311619655F3B0086C815 /* Main.storyboard in Resources */,
+				E25F315D1965949B0086C815 /* UFO V.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,7 +334,9 @@
 			files = (
 				E25F311919655F3B0086C815 /* XYZViewController.m in Sources */,
 				E25F311319655F3B0086C815 /* XYZAppDelegate.m in Sources */,
+				E2052EA61967293400E5250D /* Linkuri.m in Sources */,
 				E25F310F19655F3B0086C815 /* main.m in Sources */,
+				E25F314719656ECE0086C815 /* Game.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -380,6 +464,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "joc vanatoare/joc vanatoare-Prefix.pch";
 				INFOPLIST_FILE = "joc vanatoare/joc vanatoare-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -393,6 +478,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "joc vanatoare/joc vanatoare-Prefix.pch";
 				INFOPLIST_FILE = "joc vanatoare/joc vanatoare-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -457,6 +543,7 @@
 				E25F313319655F3B0086C815 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E25F313419655F3B0086C815 /* Build configuration list for PBXNativeTarget "joc vanatoareTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +552,7 @@
 				E25F313619655F3B0086C815 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
